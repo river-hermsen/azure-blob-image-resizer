@@ -1,2 +1,7 @@
-# azure-blob-image-resizer
-A python server that resizes images in a Storage account and stores this image again...
+0.0.0.0/{CONTAINER_NAME}/{FILE_NAME}?w={WIDTH}
+OR
+0.0.0.0/{CONTAINER_NAME}/{FILE_NAME}?h={HEIGHT}
+
+
+EXAMPLE:
+127.0.0.1:5000/294ffbff-2ce0-4079-e0e2-08dd19e91d2a/ac0fea68-cffc-4e48-a656-904528b04656.jpeg?w=250
